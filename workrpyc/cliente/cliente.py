@@ -5,7 +5,7 @@ class ClienteArquivo:
         self.conn = rpyc.connect(host, port)
 
     def enviar_arquivo(self, nome_arquivo):
-        with open('C:/Users/willy/OneDrive/Documentos/faculdade/sistemasdistribuidos/workrpyc/exemplo.txt', 'rb') as f:
+        with open('C:/Users/willy/OneDrive/Documentos/faculdade/sistemasdistribuidos/workrpyc/servidor/exemplo.txt', 'rb') as f:
             dados = f.read()
         self.conn.root.enviar_arquivo(nome_arquivo, dados)
 
@@ -31,7 +31,7 @@ class ClienteArquivo:
 
 if __name__ == "__main__":
     cliente = ClienteArquivo()
-    cliente.enviar_arquivo('example.txt')
+    cliente.enviar_arquivo('exemplo.txt')
     print(cliente.listar_arquivos())
-    cliente.baixar_arquivo('example.txt')
+    cliente.baixar_arquivo('exemplo.txt')
     cliente.registrar_interesse('arquivo_inexistente.txt')
