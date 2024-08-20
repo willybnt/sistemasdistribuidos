@@ -11,7 +11,7 @@ Este projeto implementa um sistema de transferência de arquivos em uma arquitet
 ## Instalação 
 
 1. Clone este repositório para o seu ambiente local:
-    "[git clone https://github.com/seu-usuario/seu-repositorio.git](https://github.com/willybnt/sistemasdistribuidos.git)"
+    "git clone (https://github.com/willybnt/sistemasdistribuidos.git)"
 2. Navegue até o diretorio do projeto:
     "cd seu-repositorio"
 3. Instale as dependências:
