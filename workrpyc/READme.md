@@ -1,4 +1,4 @@
-# File Transfer System
+# Sistema de transferencia de arquivos
 Este projeto implementa um sistema de transferência de arquivos em uma arquitetura cliente-servidor usando Python, RPyC para comunicação remota e Tkinter para a interface gráfica no cliente. O servidor oferece uma série de funcionalidades para gerenciar arquivos, enquanto o cliente permite interagir com o servidor de maneira intuitiva.
 
 ## Funcionalidades
