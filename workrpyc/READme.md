@@ -23,6 +23,12 @@ Cancelamento de Registro de Interesse: Permite aos clientes cancelar o registro 
 
 ## Como Usar
 
+### Clonar o Repositório
+    1. Clone o repositório:
+        git clone https://github.com/willybnt/sistemasdistribuidos.git
+    2. Navegue até o diretório do projeto:
+        cd "seu-repositorio"
+
 ### Servidor
     1. Instale as dependências:
         pip install rpyc
