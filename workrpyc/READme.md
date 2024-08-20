@@ -2,6 +2,7 @@
 Este projeto implementa um sistema de transferência de arquivos em uma arquitetura cliente-servidor usando Python, RPyC para comunicação remota e Tkinter para a interface gráfica no cliente. O servidor oferece uma série de funcionalidades para gerenciar arquivos, enquanto o cliente permite interagir com o servidor de maneira intuitiva.
 
 ## Funcionalidades
+
 ### Servidor
 - Upload de Arquivos: Permite o envio de arquivos para o servidor para compartilhamento.- Listagem de Arquivos: Fornece uma lista de arquivos disponíveis no servidor.
 - Download de Arquivos: Permite que os clientes baixem arquivos disponíveis no servidor.
@@ -19,8 +20,10 @@ Cancelamento de Registro de Interesse: Permite aos clientes cancelar o registro 
 - Python 3.x
 - RPyC: Para comunicação remota entre cliente e servidor.
 - Tkinter: Para a interface gráfica do cliente.
-# Como Usar
-## Servidor
+
+## Como Usar
+
+### Servidor
     1. Instale as dependências:
         pip install rpyc
     2. Execute o servidor:
@@ -28,20 +31,13 @@ Cancelamento de Registro de Interesse: Permite aos clientes cancelar o registro 
 
 O servidor será iniciado na porta 18812 e estará pronto para aceitar conexões de clientes.
 
-## Cliente
-Instale as dependências:
+### Cliente
+    1. Instale as dependências:
+        pip install rpyc
+    2. Execute o cliente:
+        python cliente.py
 
-bash
-Copiar código
-pip install rpyc
-
-Execute o cliente:
-
-bash
-Copiar código
-python cliente.py
 A interface gráfica será aberta, permitindo que você envie, liste e baixe arquivos.
-
 
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
