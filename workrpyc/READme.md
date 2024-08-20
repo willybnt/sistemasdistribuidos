@@ -6,15 +6,12 @@ Este projeto implementa um sistema de transferência de arquivos em uma arquitet
 ### Servidor
 - Upload de Arquivos: Permite o envio de arquivos para o servidor para compartilhamento.- Listagem de Arquivos: Fornece uma lista de arquivos disponíveis no servidor.
 - Download de Arquivos: Permite que os clientes baixem arquivos disponíveis no servidor.
-- Registro de Interesse: Clientes podem registrar interesse em arquivos que ainda não estão disponíveis. O servidor notifica os clientes registrados assim que o arquivo de interesse for adicionado.
-Cancelamento de Registro de Interesse: Permite aos clientes cancelar o registro de interesse em um arquivo específico.
 - Criação de Arquivos .txt: Cria arquivos de texto diretamente no servidor com o conteúdo especificado.
 
 ### Cliente
 - Envio de Arquivos: O cliente pode enviar arquivos para o servidor.
 - Listagem de Arquivos: Permite visualizar todos os arquivos disponíveis no servidor.
 - Download de Arquivos: Baixa arquivos do servidor para o sistema de arquivos local.
-- Notificação de Evento: Recebe notificações assíncronas do servidor sobre a disponibilidade de arquivos de interesse.
 
 ## Requisitos
 - Python 3.x
