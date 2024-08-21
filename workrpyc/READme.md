@@ -42,8 +42,5 @@ O servidor será iniciado na porta 18812 e estará pronto para aceitar conexões
 
 A interface gráfica será aberta, permitindo que você envie, liste e baixe arquivos.
 
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
-
 ## Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
