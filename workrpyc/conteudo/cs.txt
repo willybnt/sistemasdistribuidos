@@ -30,7 +30,6 @@ class ServidorArquivo(rpyc.Service):
         self.interesses = [(f, c, v) for f, c, v in self.interesses if not (f == nome_arquivo and c == cliente)]
 
     def exposed_criar_arquivo_txt(self, nome_arquivo, conteudo):
-        """Cria um arquivo .txt no servidor."""
         with open(nome_arquivo, 'w') as f:
             f.write(conteudo)
         self.arquivos[nome_arquivo] = nome_arquivo

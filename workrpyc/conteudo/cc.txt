@@ -27,7 +27,7 @@ class ClienteArquivo:
     def criar_interface(self):
         root = tk.Tk()
         root.title("Cliente de Arquivos")
-        root.configure(bg="#FFC0CB")  # Cor de fundo roxa
+        root.configure(bg="#FFC0CB")
 
         def selecionar_arquivo():
             caminho_arquivo = filedialog.askopenfilename()
@@ -45,14 +45,12 @@ class ClienteArquivo:
             if nome_arquivo and destino:
                 self.baixar_arquivo(nome_arquivo, destino)
 
-        # Configuração dos botões com fundo branco e texto preto
         botao_enviar = tk.Button(root, text="Enviar Arquivo", command=selecionar_arquivo, bg="white", fg="black", relief="flat")
         botao_enviar.pack(pady=10)
 
         botao_listar = tk.Button(root, text="Listar Arquivos", command=listar_arquivos, bg="white", fg="black", relief="flat")
         botao_listar.pack(pady=10)
 
-        # Configuração das cores dos rótulos e campo de entrada
         tk.Label(root, text="Nome do arquivo para baixar:", bg="#FFC0CB", fg="white").pack(pady=5)
         entrada_nome_arquivo = tk.Entry(root, bg="white", fg="black")
         entrada_nome_arquivo.pack(pady=5)
